@@ -1,0 +1,27 @@
+/*  Stylesheet of the first milestone project. 
+    Author: Alexis Van Espen.
+*/
+
+/*  Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+/*  Initialize values for responsive layout. */
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+img {
+	max-width: 100%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*  Create grid. */
+#container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
